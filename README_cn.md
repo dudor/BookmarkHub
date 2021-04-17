@@ -50,7 +50,7 @@ BookmarkHub 是一款浏览器插件，可以在不同浏览器之间同步你�
 > 本插件需要把书签存储到 Gist 中，所以请确保有 GitHub 账号或可以通过网络注册 GitHub 账号。
 * [Chrome 浏览器](https://chrome.google.com/webstore/detail/BookmarkHub-sync-bookmark/fohimdklhhcpcnpmmichieidclgfdmol)
 * [Firefox 浏览器](https://addons.mozilla.org/zh-CN/firefox/addon/BookmarkHub/)
-* [Microsoft EDGE 浏览器](https://microsoftedge.microsoft.com/addons/detail/BookmarkHub/fdnmfpogadcljhecfhdikdecbkggfmgk)
+* [Microsoft Edge 浏览器](https://microsoftedge.microsoft.com/addons/detail/BookmarkHub/fdnmfpogadcljhecfhdikdecbkggfmgk)
 * Opra 浏览器
 * 其他基于 Chromium 内核的浏览器
 

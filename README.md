@@ -50,7 +50,7 @@ It uses GitHub's Gist records to store browser bookmarks for safe and secure use
 > This plug-in requires bookmarks to be stored in Gist, so make sure you have a GitHub account or register your GitHub account over the network.
 * [Chrome](https://chrome.google.com/webstore/detail/BookmarkHub-sync-bookmark/fohimdklhhcpcnpmmichieidclgfdmol)
 * [Firefox](https://addons.mozilla.org/en/firefox/addon/BookmarkHub/)
-* [Microsoft EDGE](https://microsoftedge.microsoft.com/addons/detail/BookmarkHub/fdnmfpogadcljhecfhdikdecbkggfmgk)
+* [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/BookmarkHub/fdnmfpogadcljhecfhdikdecbkggfmgk)
 * Opra 
 * Other browsers based on the Chromium kernel
 
