@@ -57,7 +57,7 @@ It uses GitHub's Gist records to store browser bookmarks for safe and secure use
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. [Login](https://github.com/login) GitHub，If you don't have an account, please [click here to register]](https://github.com/join)。
+1. [Login](https://github.com/login) GitHub，If you don't have an account, please [click here to register](https://github.com/join)。
 2. [Create a token that manages the gist](https://github.com/settings/tokens/new)。
 3. [Create a secret gist](https://gist.github.com)。__Note: If it's a public gist, your bookmarks can be searched by others。__
 4. Download BookmarkHub in the browser store, click the plug-in's settings button, fill in the token and gist ID in the pop-up settings window, and you can upload the download bookmark。
