@@ -23,6 +23,7 @@
   <summary><h2 style="display: inline-block">目录</h2></summary>
   <ol>
     <li><a href="#关于">关于</a></li>
+    <li><a href="#功能">功能</a></li>
     <li><a href="#下载安装">下载安装</a></li>
     <li><a href="#使用方法">使用方法</a></li>
     <li><a href="#待实现的功能">待实现的功能</a></li>
@@ -46,12 +47,19 @@ BookmarkHub 是一款浏览器插件，可以在不同浏览器之间同步你�
 
 ![BookmarkHub](images/2.png)
 
+## 功能
+* 不需要注册特殊账号，只需要用你的 GitHub 账号的Token和Gist
+* 一键上传下载书签
+* 一键清空本地所有书签
+* 支持跨电脑跨浏览器同步书签
+* 支持显示本地和远程书签的数量
+
 ## 下载安装
 > 本插件需要把书签存储到 Gist 中，所以请确保有 GitHub 账号或可以通过网络注册 GitHub 账号。
 * [Chrome 浏览器](https://chrome.google.com/webstore/detail/BookmarkHub-sync-bookmark/fohimdklhhcpcnpmmichieidclgfdmol)
 * [Firefox 浏览器](https://addons.mozilla.org/zh-CN/firefox/addon/BookmarkHub/)
 * [Microsoft Edge 浏览器](https://microsoftedge.microsoft.com/addons/detail/BookmarkHub/fdnmfpogadcljhecfhdikdecbkggfmgk)
-* Opra 浏览器
+* Opera 浏览器
 * 其他基于 Chromium 内核的浏览器
 
 <!-- USAGE EXAMPLES -->
@@ -69,6 +77,7 @@ BookmarkHub 是一款浏览器插件，可以在不同浏览器之间同步你�
 - [ ] 支持 webdav 协议
 - [ ] 移动端
 - [ ] 导入导出
+- [ ] 分享书签
 
 
 <!-- LICENSE -->
