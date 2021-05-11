@@ -1,0 +1,90 @@
+{
+    "extensionName": {
+        "message": "BookmarkHub - sync bookmarks ",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "BookmarkHub,sync bookmarks across different browsers",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "Upload Bookmarks",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "DownLoad Bookmarks",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "Sync Bookmarks",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "Remove All Bookmarks",
+        "description": ""
+    },
+    "settings": {
+        "message": "Settings",
+        "description": ""
+    },
+    "help": {
+        "message": "Help",
+        "description": ""
+    },
+    "localCount": {
+        "message": "Local Bookmark Count",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "Remote Bookmark Count",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "Github Token",
+        "description": ""
+    },
+    "gistID": {
+        "message": "Gist ID",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Gist File Name",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "Enable Notifications",
+        "description": ""
+    },
+    "success": {
+        "message": "Success",
+        "description": ""
+    },
+    "failed": {
+        "message": "Failed",
+        "description": ""
+    },
+    "error": {
+        "message": "Error",
+        "description": ""
+    },
+    "author": {
+        "message": "Author",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "Upload all the bookmarks of the local browser to the server",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "First clear the bookmarks in the local browser, and then download all the bookmarks on the server to the local browser",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "Merge all the bookmarks on the server into the local browser, and then upload them to the server",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "Remove All Bookmarks, Please backup first",
+        "description": ""
+    }
+}

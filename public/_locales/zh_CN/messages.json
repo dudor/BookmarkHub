@@ -1,0 +1,90 @@
+{
+    "extensionName": {
+        "message": "BookmarkHub - 书签同步",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "BookmarkHub,在不同浏览器同步我的书签",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "上传书签",
+        "description": "把本地浏览器的书签全部上传到服务器中"
+    },
+    "downloadBookmarks": {
+        "message": "下载书签",
+        "description": "先清空本地浏览器中的书签，然后再把服务器上的书签全部下载到本地浏览器中"
+    },
+    "syncBookmarks": {
+        "message": "同步书签",
+        "description": "把服务器上的书签全部合并到本地浏览器中，然后再上传到服务器"
+    },
+    "removeAllBookmarks": {
+        "message": "清空本地书签",
+        "description": ""
+    },
+    "settings": {
+        "message": "设置",
+        "description": ""
+    },
+    "help": {
+        "message": "帮助",
+        "description": ""
+    },
+    "localCount": {
+        "message": "本地书签数量",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "远程书签数量",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "Github Token",
+        "description": ""
+    },
+    "gistID": {
+        "message": "Gist ID",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Gist文件名",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "使用消息通知",
+        "description": ""
+    },
+    "success": {
+        "message": "成功",
+        "description": ""
+    },
+    "failed": {
+        "message": "失败",
+        "description": ""
+    },
+    "error": {
+        "message": "错误",
+        "description": ""
+    },
+    "author": {
+        "message": "开发者",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "把本地浏览器的书签全部上传到服务器中",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "先清空本地浏览器中的书签，然后再把服务器上的书签全部下载到本地浏览器中",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "把服务器上的书签全部合并到本地浏览器中，然后再上传到服务器",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "清空本地浏览器书签，请先做好备份",
+        "description": ""
+    }
+}

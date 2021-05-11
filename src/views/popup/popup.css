@@ -1,0 +1,40 @@
+#root {
+    width: 15rem;
+    min-height: 11rem;
+    height: auto;
+    position: relative;
+}
+
+.list-group-item {
+    padding: 0.25rem 1.25rem !important;
+}
+
+.card-header {
+    padding: 0.25rem 1rem !important;
+}
+
+.dropdown-menu {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    border: none !important;
+    width: 100% !important;
+}
+
+.dropdown-item,
+.dropdown-item-text {
+    font-size: 12px !important;
+    padding: .25rem 1rem !important;
+    vertical-align: middle !important;
+}
+
+.dropdown-item-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.dropdown-item a,
+.dropdown-item-text a {
+    color: inherit;
+}
