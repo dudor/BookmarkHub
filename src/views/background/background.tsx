@@ -34,7 +34,7 @@ browser.runtime.onMessage.addListener(async (msg, sender) => {
 });
 browser.bookmarks.onCreated.addListener((id, info) => {
     if (curOperType === OperType.NONE) {
-        console.log("onCreated", id, info)
+        // console.log("onCreated", id, info)
         browser.browserAction.setBadgeText({ text: "!" });
         browser.browserAction.setBadgeBackgroundColor({ color: "#F00" });
         refreshLocalCount();
@@ -42,21 +42,21 @@ browser.bookmarks.onCreated.addListener((id, info) => {
 });
 browser.bookmarks.onChanged.addListener((id, info) => {
     if (curOperType === OperType.NONE) {
-        console.log("onChanged", id, info)
+        // console.log("onChanged", id, info)
         browser.browserAction.setBadgeText({ text: "!" });
         browser.browserAction.setBadgeBackgroundColor({ color: "#F00" });
     }
 })
 browser.bookmarks.onMoved.addListener((id, info) => {
     if (curOperType === OperType.NONE) {
-        console.log("onMoved", id, info)
+        // console.log("onMoved", id, info)
         browser.browserAction.setBadgeText({ text: "!" });
         browser.browserAction.setBadgeBackgroundColor({ color: "#F00" });
     }
 })
 browser.bookmarks.onRemoved.addListener((id, info) => {
     if (curOperType === OperType.NONE) {
-        console.log("onRemoved", id, info)
+        // console.log("onRemoved", id, info)
         browser.browserAction.setBadgeText({ text: "!" });
         browser.browserAction.setBadgeBackgroundColor({ color: "#F00" });
         refreshLocalCount();
@@ -107,42 +107,38 @@ async function downloadBookmarks() {
         let gist = await BookmarkService.get();
         let setting = await Setting.build()
         if (gist) {
-            var filenames = Object.keys(gist.files);
-            if (filenames.indexOf(setting.gistFileName) !== -1) {
-                let gistFile = gist.files[setting.gistFileName]
-                let syncdata: SyncDataInfo = JSON.parse(gistFile.content);
-                if (syncdata.bookmarks == undefined || syncdata.bookmarks.length == 0) {
-                    if (setting.enableNotify) {
-                        await browser.notifications.create({
-                            type: "basic",
-                            iconUrl: iconLogo,
-                            title: browser.i18n.getMessage('downloadBookmarks'),
-                            message: `${browser.i18n.getMessage('error')}：Gist File ${setting.gistFileName} is NULL`
-                        });
-                    }
-                    return;
-                }
-                await clearBookmarkTree();
-                await createBookmarkTree(syncdata.bookmarks);
-                let count = getBookmarkCount(syncdata.bookmarks);
-                await browser.storage.local.set({ remoteCount: count });
+            let syncdata: SyncDataInfo = JSON.parse(gist);
+            if (syncdata.bookmarks == undefined || syncdata.bookmarks.length == 0) {
                 if (setting.enableNotify) {
                     await browser.notifications.create({
                         type: "basic",
                         iconUrl: iconLogo,
                         title: browser.i18n.getMessage('downloadBookmarks'),
-                        message: browser.i18n.getMessage('success')
+                        message: `${browser.i18n.getMessage('error')}：Gist File ${setting.gistFileName} is NULL`
                     });
                 }
+                return;
             }
-            else {
+            await clearBookmarkTree();
+            await createBookmarkTree(syncdata.bookmarks);
+            let count = getBookmarkCount(syncdata.bookmarks);
+            await browser.storage.local.set({ remoteCount: count });
+            if (setting.enableNotify) {
                 await browser.notifications.create({
                     type: "basic",
                     iconUrl: iconLogo,
                     title: browser.i18n.getMessage('downloadBookmarks'),
-                    message: `${browser.i18n.getMessage('error')}：Gist File ${setting.gistFileName} Not Found`
+                    message: browser.i18n.getMessage('success')
                 });
             }
+        }
+        else {
+            await browser.notifications.create({
+                type: "basic",
+                iconUrl: iconLogo,
+                title: browser.i18n.getMessage('downloadBookmarks'),
+                message: `${browser.i18n.getMessage('error')}：Gist File ${setting.gistFileName} Not Found`
+            });
         }
     }
     catch (error) {

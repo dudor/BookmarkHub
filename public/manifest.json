@@ -24,7 +24,8 @@
         "bookmarks",
         "storage",
         "notifications",
-        "https://*.github.com/"
+        "https://*.github.com/",
+        "https://*.githubusercontent.com/"
     ],
     "options_ui": {
         "page": "options.html",
