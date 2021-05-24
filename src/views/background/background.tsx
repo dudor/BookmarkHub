@@ -67,8 +67,14 @@ async function uploadBookmarks() {
     try {
         let bookmarks = await getBookmarks();
         let setting = await Setting.build()
-        if (setting.githubToken === '') {
-            return;
+        if (setting.githubToken == '') {
+            throw new Error("Gist Token Not Found");
+        }
+        if(setting.gistID == ''){
+            throw new Error("Gist ID Not Found");
+        }
+        if(setting.gistFileName == ''){
+            throw new Error("Gist File Not Found");
         }
         let syncdata = new SyncDataInfo();
         syncdata.version = browser.runtime.getManifest().version;
