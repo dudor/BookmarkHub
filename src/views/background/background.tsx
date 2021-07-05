@@ -65,17 +65,17 @@ browser.bookmarks.onRemoved.addListener((id, info) => {
 
 async function uploadBookmarks() {
     try {
-        let bookmarks = await getBookmarks();
         let setting = await Setting.build()
         if (setting.githubToken == '') {
             throw new Error("Gist Token Not Found");
         }
-        if(setting.gistID == ''){
+        if (setting.gistID == '') {
             throw new Error("Gist ID Not Found");
         }
-        if(setting.gistFileName == ''){
+        if (setting.gistFileName == '') {
             throw new Error("Gist File Not Found");
         }
+        let bookmarks = await getBookmarks();
         let syncdata = new SyncDataInfo();
         syncdata.version = browser.runtime.getManifest().version;
         syncdata.createDate = Date.now();
@@ -170,6 +170,16 @@ async function getBookmarks() {
 
 async function clearBookmarkTree() {
     try {
+        let setting = await Setting.build()
+        if (setting.githubToken == '') {
+            throw new Error("Gist Token Not Found");
+        }
+        if (setting.gistID == '') {
+            throw new Error("Gist ID Not Found");
+        }
+        if (setting.gistFileName == '') {
+            throw new Error("Gist File Not Found");
+        }
         let bookmarks = await getBookmarks();
         let tempNodes: BookmarkInfo[] = [];
         bookmarks[0].children?.forEach(c => {
@@ -184,7 +194,7 @@ async function clearBookmarkTree() {
                 }
             }
         }
-        let setting = await Setting.build()
+        await backupToLocalStorage(bookmarks);
         if (curOperType === OperType.REMOVE && setting.enableNotify) {
             await browser.notifications.create({
                 type: "basic",
@@ -326,4 +336,19 @@ function format(b: BookmarkInfo): BookmarkInfo {
         b.children?.map(c => format(c))
     }
     return b;
+}
+
+async function backupToLocalStorage(bookmarks: BookmarkInfo[]) {
+    try {
+        let syncdata = new SyncDataInfo();
+        syncdata.version = browser.runtime.getManifest().version;
+        syncdata.createDate = Date.now();
+        syncdata.bookmarks = formatBookmarks(bookmarks);
+        syncdata.browser = navigator.userAgent;
+        const keyname = 'BookmarkHub_backup_' + Date.now().toString();
+        await browser.storage.local.set({ [keyname]: JSON.stringify(syncdata) });
+    }
+    catch (error) {
+        console.error(error)
+    }
 }
