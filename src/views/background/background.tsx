@@ -1,4 +1,4 @@
-import { browser } from "webextension-polyfill-ts";
+import { browser, Bookmarks } from "webextension-polyfill-ts";
 import BookmarkService from '../../utils/services'
 import { Setting } from '../../utils/setting'
 import iconLogo from '../../icons/icon128.png'
@@ -89,6 +89,8 @@ async function uploadBookmarks() {
             },
             description: setting.gistFileName
         }));
+        const count = getBookmarkCount(syncdata.bookmarks);
+        await browser.storage.local.set({ remoteCount: count });
         if (setting.enableNotify) {
             await browser.notifications.create({
                 type: "basic",
@@ -127,7 +129,7 @@ async function downloadBookmarks() {
             }
             await clearBookmarkTree();
             await createBookmarkTree(syncdata.bookmarks);
-            let count = getBookmarkCount(syncdata.bookmarks);
+            const count = getBookmarkCount(syncdata.bookmarks);
             await browser.storage.local.set({ remoteCount: count });
             if (setting.enableNotify) {
                 await browser.notifications.create({
@@ -263,12 +265,18 @@ async function createBookmarkTree(bookmarkList: BookmarkInfo[] | undefined) {
             continue;
         }
 
-        let res = await browser.bookmarks.create({
-            parentId: node.parentId,
-            title: node.title,
-            url: node.url
-        });
-        if (res.url === undefined && node.children && node.children.length > 0) {
+        let res: Bookmarks.BookmarkTreeNode = { id: '', title: '' };
+        try {
+            /* 处理firefox中创建 chrome://chrome-urls/ 格式的书签会报错的问题 */
+            res = await browser.bookmarks.create({
+                parentId: node.parentId,
+                title: node.title,
+                url: node.url
+            });
+        } catch (err) {
+            console.error(res, err);
+        }
+        if (res.id && node.children && node.children.length > 0) {
             node.children.forEach(c => c.parentId = res.id);
             await createBookmarkTree(node.children);
         }
@@ -292,7 +300,7 @@ function getBookmarkCount(bookmarkList: BookmarkInfo[] | undefined) {
 
 async function refreshLocalCount() {
     let bookmarkList = await getBookmarks();
-    let count = getBookmarkCount(bookmarkList);
+    const count = getBookmarkCount(bookmarkList);
     await browser.storage.local.set({ localCount: count });
 }
 
