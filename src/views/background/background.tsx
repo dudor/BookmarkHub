@@ -196,7 +196,6 @@ async function clearBookmarkTree() {
                 }
             }
         }
-        await backupToLocalStorage(bookmarks);
         if (curOperType === OperType.REMOVE && setting.enableNotify) {
             await browser.notifications.create({
                 type: "basic",
@@ -345,7 +344,7 @@ function format(b: BookmarkInfo): BookmarkInfo {
     }
     return b;
 }
-
+///暂时不启用自动备份
 async function backupToLocalStorage(bookmarks: BookmarkInfo[]) {
     try {
         let syncdata = new SyncDataInfo();
