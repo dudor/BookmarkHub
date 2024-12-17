@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import ReactDOM from 'react-dom'
-import { browser } from "webextension-polyfill-ts";
+import ReactDOM from 'react-dom/client';
 import { Dropdown, Badge } from 'react-bootstrap';
 import { IconContext } from 'react-icons'
 import {
@@ -20,7 +19,7 @@ const Popup: React.FC = () => {
                 browser.runtime.sendMessage({ name: elem.name })
                     .then((res) => {
                         elem.removeAttribute('disabled');
-                        console.log("msg", res)
+                        console.log("msg", Date.now())
                     })
                     .catch(c => {
                         console.log("error", c)
@@ -53,12 +52,11 @@ const Popup: React.FC = () => {
     )
 }
 
-ReactDOM.render(
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
         <Popup />
     </React.StrictMode>,
-    document.getElementById('root')
-)
-
+);
 
 

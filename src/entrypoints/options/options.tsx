@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client';
 import { Container, Form, Button, Col, Row, InputGroup } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
-import { browser } from "webextension-polyfill-ts";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './options.css'
 import optionsStorage from '../../utils/optionsStorage'
@@ -61,9 +60,10 @@ const Popup: React.FC = () => {
     )
 }
 
-ReactDOM.render(
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
-        <Popup />
+      <Popup />
     </React.StrictMode>,
-    document.getElementById('root')
-)
+  );
+  
