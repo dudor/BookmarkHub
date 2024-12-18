@@ -4,7 +4,7 @@ import { defineConfig } from 'wxt';
 export default defineConfig({
   extensionApi: 'chrome',
   srcDir: 'src',
-  modules: ['@wxt-dev/module-react'],
+  modules: ['@wxt-dev/module-react', '@wxt-dev/auto-icons'],
   manifest: {
     name: "__MSG_extensionName__",
     description: "__MSG_extensionDescription__",

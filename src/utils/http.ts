@@ -12,6 +12,8 @@ import { Setting } from './setting'
 
 export const http = ky.create({
   prefixUrl: 'https://api.github.com',
+  timeout:60000,
+  retry:1,
   hooks: {
     beforeRequest: [
       async request => {

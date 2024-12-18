@@ -1,6 +1,6 @@
 import BookmarkService from '../utils/services'
 import { Setting } from '../utils/setting'
-import iconLogo from '../assets/icons/icon128.png'
+import iconLogo from '../assets/icon.png'
 import { OperType, BookmarkInfo, SyncDataInfo, RootBookmarksType, BrowserType } from '../utils/models'
 import { Bookmarks } from 'wxt/browser'
 export default defineBackground(() => {
