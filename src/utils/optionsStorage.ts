@@ -1,5 +1,4 @@
 import OptionsSync from 'webext-options-sync';
-import { SettingBase } from './setting'
 /* global OptionsSync */
 
 export default new OptionsSync({

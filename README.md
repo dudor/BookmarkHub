@@ -60,8 +60,7 @@ It uses GitHub's Gist records to store browser bookmarks for safe and secure use
 * [Chrome](https://chrome.google.com/webstore/detail/bookmarkhub-sync-bookmark/fohimdklhhcpcnpmmichieidclgfdmol)
 * [Firefox](https://addons.mozilla.org/en/firefox/addon/BookmarkHub/)
 * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/BookmarkHub/fdnmfpogadcljhecfhdikdecbkggfmgk)
-* Opera 
-* Other browsers based on the Chromium kernel
+* [Other browsers based on the Chromium kernel](https://chrome.google.com/webstore/detail/bookmarkhub-sync-bookmark/fohimdklhhcpcnpmmichieidclgfdmol)
 
 <!-- USAGE EXAMPLES -->
 ## Usage

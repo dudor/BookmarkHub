@@ -59,8 +59,7 @@ BookmarkHub 是一款浏览器插件，可以在不同浏览器之间同步你�
 * [Chrome 浏览器](https://chrome.google.com/webstore/detail/bookmarkhub-sync-bookmark/fohimdklhhcpcnpmmichieidclgfdmol)
 * [Firefox 浏览器](https://addons.mozilla.org/zh-CN/firefox/addon/BookmarkHub/)
 * [Microsoft Edge 浏览器](https://microsoftedge.microsoft.com/addons/detail/BookmarkHub/fdnmfpogadcljhecfhdikdecbkggfmgk)
-* Opera 浏览器
-* 其他基于 Chromium 内核的浏览器
+* [其他基于 Chromium 内核的浏览器](https://chrome.google.com/webstore/detail/bookmarkhub-sync-bookmark/fohimdklhhcpcnpmmichieidclgfdmol)
 
 <!-- USAGE EXAMPLES -->
 ## 使用方法
