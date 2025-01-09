@@ -1,0 +1,90 @@
+{
+    "extensionName": {
+        "message": "BookmarkHub - Sincronización de marcadores",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "BookmarkHub, sincronización de marcadores entre diferentes navegadores",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "Subir marcadores",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "Descargar marcadores",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "Sincronizar marcadores",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "Eliminar todos los marcadores",
+        "description": ""
+    },
+    "settings": {
+        "message": "Configuración",
+        "description": ""
+    },
+    "help": {
+        "message": "Ayuda",
+        "description": ""
+    },
+    "localCount": {
+        "message": "Cantidad de marcadores locales",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "Cantidad de marcadores remotos",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "Token de GitHub",
+        "description": ""
+    },
+    "gistID": {
+        "message": "ID de Gist",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Nombre de archivo de Gist",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "Activar notificaciones",
+        "description": ""
+    },
+    "success": {
+        "message": "Éxito",
+        "description": ""
+    },
+    "failed": {
+        "message": "Fracaso",
+        "description": ""
+    },
+    "error": {
+        "message": "Error",
+        "description": ""
+    },
+    "author": {
+        "message": "Autor",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "Subir todos los marcadores del navegador local al servidor",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "Eliminar primero los marcadores del navegador local y luego descargar todos los marcadores del servidor al navegador local",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "Combinar todos los marcadores del servidor en el navegador local y luego subirlos al servidor",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "Eliminar todos los marcadores. Por favor, realice una copia de seguridad primero.",
+        "description": ""
+    }
+}

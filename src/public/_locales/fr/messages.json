@@ -1,0 +1,90 @@
+{
+    "extensionName": {
+        "message": "BookmarkHub - synchroniser les signets",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "BookmarkHub, synchroniser les signets entre différents navigateurs",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "Télécharger les signets",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "Télécharger les signets",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "Synchroniser les signets",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "Supprimer tous les signets",
+        "description": ""
+    },
+    "settings": {
+        "message": "Paramètres",
+        "description": ""
+    },
+    "help": {
+        "message": "Aide",
+        "description": ""
+    },
+    "localCount": {
+        "message": "Nombre de signets locaux",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "Nombre de signets distants",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "Jetons GitHub",
+        "description": ""
+    },
+    "gistID": {
+        "message": "ID Gist",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Nom de fichier Gist",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "Activer les notifications",
+        "description": ""
+    },
+    "success": {
+        "message": "Succès",
+        "description": ""
+    },
+    "failed": {
+        "message": "Échoué",
+        "description": ""
+    },
+    "error": {
+        "message": "Erreur",
+        "description": ""
+    },
+    "author": {
+        "message": "Auteur",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "Télécharger tous les signets du navigateur local vers le serveur",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "Supprimez d'abord les signets du navigateur local, puis téléchargez tous les signets du serveur vers le navigateur local",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "Fusionnez tous les signets du serveur dans le navigateur local, puis téléchargez-les vers le serveur",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "Supprimez tous les signets. Veuillez effectuer une sauvegarde au préalable.",
+        "description": ""
+    }
+}

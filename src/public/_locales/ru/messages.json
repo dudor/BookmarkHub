@@ -1,0 +1,90 @@
+﻿{
+    "extensionName": {
+        "message": "BookmarkHub - синхронизация закладок ",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "BookmarkHub, синхронизация закладок между разными браузерами",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "Выгрузить закладки",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "Скачать закладки",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "Синхронизировать закладки",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "Удалить все закладки",
+        "description": ""
+    },
+    "settings": {
+        "message": "Настройки",
+        "description": ""
+    },
+    "help": {
+        "message": "Помощь",
+        "description": ""
+    },
+    "localCount": {
+        "message": "Количество локальных закладок",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "Количество закладок на сервере",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "Github Token",
+        "description": ""
+    },
+    "gistID": {
+        "message": "Gist ID",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Имя файла Gist",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "Включить уведомления",
+        "description": ""
+    },
+    "success": {
+        "message": "Выполнено",
+        "description": ""
+    },
+    "failed": {
+        "message": "Сбой",
+        "description": ""
+    },
+    "error": {
+        "message": "Ошибка",
+        "description": ""
+    },
+    "author": {
+        "message": "Разработчик",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "Выгрузить все закладки из браузера на сервер",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "Сначала закладки в браузере очищаются, затем скачиваются с сервера",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "Объединить закладки на сервере и браузере, а затем выгрузить их на сервер",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "Удалить все закладки, пожалуйста сделайте резервную копию",
+        "description": ""
+    }
+}

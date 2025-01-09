@@ -1,0 +1,90 @@
+{
+    "extensionName": {
+        "message": "BookmarkHub - Bookmark-Synchronisierung",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "BookmarkHub, Synchronisierung von Bookmarks zwischen verschiedenen Browsern",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "Bookmarks hochladen",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "Bookmarks herunterladen",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "Bookmarks synchronisieren",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "Alle Bookmarks löschen",
+        "description": ""
+    },
+    "settings": {
+        "message": "Einstellungen",
+        "description": ""
+    },
+    "help": {
+        "message": "Hilfe",
+        "description": ""
+    },
+    "localCount": {
+        "message": "Anzahl lokaler Bookmarks",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "Anzahl entfernter Bookmarks",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "GitHub-Token",
+        "description": ""
+    },
+    "gistID": {
+        "message": "Gist-ID",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Gist-Dateiname",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "Benachrichtigungen aktivieren",
+        "description": ""
+    },
+    "success": {
+        "message": "Erfolg",
+        "description": ""
+    },
+    "failed": {
+        "message": "Fehlschlag",
+        "description": ""
+    },
+    "error": {
+        "message": "Fehler",
+        "description": ""
+    },
+    "author": {
+        "message": "Autor",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "Alle Bookmarks des lokalen Browsers auf den Server hochladen",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "Zunächst die Bookmarks des lokalen Browsers löschen und dann alle Bookmarks vom Server in den lokalen Browser herunterladen",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "Alle Bookmarks vom Server in den lokalen Browser zusammenführen und dann auf den Server hochladen",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "Alle Bookmarks löschen. Bitte erstellen Sie vorher ein Backup.",
+        "description": ""
+    }
+}
