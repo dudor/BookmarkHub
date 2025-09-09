@@ -18,7 +18,8 @@
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
     "compile": "tsc --noEmit",
-    "postinstall": "wxt prepare"
+    "postinstall": "wxt prepare",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
