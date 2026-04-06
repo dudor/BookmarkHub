@@ -4,12 +4,13 @@ import { defineConfig } from 'wxt';
 export default defineConfig({
   extensionApi: 'chrome',
   srcDir: 'src',
+  publicDir: 'src/public',
   modules: ['@wxt-dev/module-react', '@wxt-dev/auto-icons'],
   manifest: {
     name: "__MSG_extensionName__",
     description: "__MSG_extensionDescription__",
     default_locale: 'en',
-    permissions: ['storage', 'bookmarks', 'notifications'],
+    permissions: ['storage', 'bookmarks', 'notifications', 'alarms'],
     host_permissions: ["https://*.github.com/", "https://*.githubusercontent.com/"],
     optional_host_permissions: [
       "*://*/*",

@@ -22,7 +22,7 @@ export const http = ky.create({
         request.headers.set('Content-Type', `application/json;charset=utf-8`);
         request.headers.set('X-GitHub-Api-Version', `2022-11-28`);
         request.headers.set('Accept', `application/vnd.github+json`);
-        request.headers.set('cache','no-store');
+        request.headers.set('Cache-Control','no-store');
       }
     ]
   }

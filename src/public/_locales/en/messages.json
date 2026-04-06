@@ -86,5 +86,13 @@
     "removeAllBookmarksDesc": {
         "message": "Remove All Bookmarks, Please backup first",
         "description": ""
+    },
+    "autoSyncUpload": {
+        "message": "Auto Sync - Upload Bookmarks",
+        "description": ""
+    },
+    "autoSyncDownload": {
+        "message": "Auto Sync - Download Bookmarks",
+        "description": ""
     }
 }
