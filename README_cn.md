@@ -41,12 +41,6 @@ BookmarkHub 是一款浏览器插件，可以在不同浏览器之间同步你�
 
 它使用 GitHub 的 Gist 记录来存储浏览器的书签，可以放心安全的使用。
 
-![BookmarkHub](images/3.gif)
-
-![BookmarkHub](images/1.png)
-
-![BookmarkHub](images/2.png)
-
 ## 功能
 * 不需要注册特殊账号，只需要用你的 GitHub 账号的Token和Gist
 * 一键上传下载书签
