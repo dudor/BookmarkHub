@@ -1,0 +1,90 @@
+{
+    "extensionName": {
+        "message": "BookmarkHub - مزامنة العلامات المرجعية",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "BookmarkHub، مزامنة العلامات المرجعية عبر متصفحات مختلفة",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "رفع العلامات المرجعية",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "تنزيل العلامات المرجعية",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "مزامنة العلامات المرجعية",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "إزالة جميع العلامات المرجعية",
+        "description": ""
+    },
+    "settings": {
+        "message": "الإعدادات",
+        "description": ""
+    },
+    "help": {
+        "message": "المساعدة",
+        "description": ""
+    },
+    "localCount": {
+        "message": "عدد العلامات المرجعية المحلية",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "عدد العلامات المرجعية البعيدة",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "رمز GitHub",
+        "description": ""
+    },
+    "gistID": {
+        "message": "معرف Gist",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "اسم ملف Gist",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "تمكين الإشعارات",
+        "description": ""
+    },
+    "success": {
+        "message": "نجاح",
+        "description": ""
+    },
+    "failed": {
+        "message": "فشل",
+        "description": ""
+    },
+    "error": {
+        "message": "خطأ",
+        "description": ""
+    },
+    "author": {
+        "message": "المؤلف",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "رفع جميع العلامات المرجعية في المتصفح المحلي إلى الخادم",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "أزل العلامات المرجعية في المتصفح المحلي أولاً، ثم قم بتنزيل جميع العلامات المرجعية على الخادم إلى المتصفح المحلي",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "دمج جميع العلامات المرجعية على الخادم في المتصفح المحلي، ثم قم بتحميلها إلى الخادم",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "أزل جميع العلامات المرجعية. يرجى إجراء نسخ احتياطي أولاً",
+        "description": ""
+    }
+}

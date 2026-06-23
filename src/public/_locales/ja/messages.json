@@ -1,0 +1,90 @@
+{
+    "extensionName": {
+        "message": "BookmarkHub - ブックマークを同期",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "BookmarkHub、異なるブラウザ間でブックマークを同期",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "ブックマークをアップロード",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "ブックマークをダウンロード",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "ブックマークを同期",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "全てのブックマークを削除",
+        "description": ""
+    },
+    "settings": {
+        "message": "設定",
+        "description": ""
+    },
+    "help": {
+        "message": "ヘルプ",
+        "description": ""
+    },
+    "localCount": {
+        "message": "ローカルのブックマーク数",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "リモートのブックマーク数",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "GitHub トークン",
+        "description": ""
+    },
+    "gistID": {
+        "message": "Gist ID",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Gist ファイル名",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "通知を有効にする",
+        "description": ""
+    },
+    "success": {
+        "message": "成功",
+        "description": ""
+    },
+    "failed": {
+        "message": "失敗",
+        "description": ""
+    },
+    "error": {
+        "message": "エラー",
+        "description": ""
+    },
+    "author": {
+        "message": "著者",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "ローカルブラウザの全てのブックマークをサーバーにアップロード",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "まずローカルブラウザのブックマークを削除し、次にサーバー上の全てのブックマークをローカルブラウザにダウンロード",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "サーバー上の全てのブックマークをローカルブラウザにマージし、次にサーバーにアップロード",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "全てのブックマークを削除します。事前にバックアップを行ってください。",
+        "description": ""
+    }
+}

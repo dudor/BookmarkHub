@@ -1,0 +1,90 @@
+{
+    "extensionName": {
+        "message": "BookmarkHub - Sincronizzazione segnalibri",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "BookmarkHub, sincronizzazione dei segnalibri tra diversi browser",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "Carica segnalibri",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "Scarica segnalibri",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "Sincronizza segnalibri",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "Rimuovi tutti i segnalibri",
+        "description": ""
+    },
+    "settings": {
+        "message": "Impostazioni",
+        "description": ""
+    },
+    "help": {
+        "message": "Aiuto",
+        "description": ""
+    },
+    "localCount": {
+        "message": "Numero di segnalibri locali",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "Numero di segnalibri remoti",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "Token GitHub",
+        "description": ""
+    },
+    "gistID": {
+        "message": "ID Gist",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Nome file Gist",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "Abilita notifiche",
+        "description": ""
+    },
+    "success": {
+        "message": "Successo",
+        "description": ""
+    },
+    "failed": {
+        "message": "Fallimento",
+        "description": ""
+    },
+    "error": {
+        "message": "Errore",
+        "description": ""
+    },
+    "author": {
+        "message": "Autore",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "Carica tutti i segnalibri del browser locale sul server",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "Elimina prima i segnalibri del browser locale e poi scarica tutti i segnalibri dal server sul browser locale",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "Unisci tutti i segnalibri del server nel browser locale e poi caricali sul server",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "Rimuovi tutti i segnalibri. Fai prima un backup.",
+        "description": ""
+    }
+}

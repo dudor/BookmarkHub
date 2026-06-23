@@ -9,14 +9,14 @@ class BookmarkService {
             if (filenames.indexOf(setting.gistFileName) !== -1) {
                 let gistFile = resp.files[setting.gistFileName]
                 if (gistFile.truncated) {
-                    const txt = http.get(gistFile.raw_url).text();
+                    const txt = http.get(gistFile.raw_url, {prefixUrl: ''}).text();
                     return txt;
                 } else {
                     return gistFile.content
                 }
             }
         }
-        return resp;
+        return null;
     }
     async getAllGist() {
         return http.get('gists').json();

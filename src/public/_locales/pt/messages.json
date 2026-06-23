@@ -1,0 +1,90 @@
+{
+    "extensionName": {
+        "message": "BookmarkHub - Sincronização de favoritos",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "BookmarkHub, sincronização de favoritos entre diferentes navegadores",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "Enviar favoritos",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "Baixar favoritos",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "Sincronizar favoritos",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "Remover todos os favoritos",
+        "description": ""
+    },
+    "settings": {
+        "message": "Configurações",
+        "description": ""
+    },
+    "help": {
+        "message": "Ajuda",
+        "description": ""
+    },
+    "localCount": {
+        "message": "Quantidade de favoritos locais",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "Quantidade de favoritos remotos",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "Token do GitHub",
+        "description": ""
+    },
+    "gistID": {
+        "message": "ID do Gist",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Nome do arquivo do Gist",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "Ativar notificações",
+        "description": ""
+    },
+    "success": {
+        "message": "Sucesso",
+        "description": ""
+    },
+    "failed": {
+        "message": "Falha",
+        "description": ""
+    },
+    "error": {
+        "message": "Erro",
+        "description": ""
+    },
+    "author": {
+        "message": "Autor",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "Enviar todos os favoritos do navegador local para o servidor",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "Remover primeiro os favoritos do navegador local e depois baixar todos os favoritos do servidor para o navegador local",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "Combinar todos os favoritos do servidor no navegador local e depois enviar para o servidor",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "Remover todos os favoritos. Por favor, faça um backup primeiro.",
+        "description": ""
+    }
+}

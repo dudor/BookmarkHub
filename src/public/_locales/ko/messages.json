@@ -1,0 +1,90 @@
+{
+    "extensionName": {
+        "message": "BookmarkHub - 북마크 동기화",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "BookmarkHub, 다양한 브라우저 간 북마크 동기화",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "북마크 업로드",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "북마크 다운로드",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "북마크 동기화",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "모든 북마크 삭제",
+        "description": ""
+    },
+    "settings": {
+        "message": "설정",
+        "description": ""
+    },
+    "help": {
+        "message": "도움말",
+        "description": ""
+    },
+    "localCount": {
+        "message": "로컬 북마크 수",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "원격 북마크 수",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "GitHub 토큰",
+        "description": ""
+    },
+    "gistID": {
+        "message": "Gist ID",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Gist 파일명",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "알림 활성화",
+        "description": ""
+    },
+    "success": {
+        "message": "성공",
+        "description": ""
+    },
+    "failed": {
+        "message": "실패",
+        "description": ""
+    },
+    "error": {
+        "message": "오류",
+        "description": ""
+    },
+    "author": {
+        "message": "작성자",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "로컬 브라우저의 모든 북마크를 서버로 업로드",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "먼저 로컬 브라우저의 북마크를 삭제한 후, 서버의 모든 북마크를 로컬 브라우저로 다운로드",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "서버의 모든 북마크를 로컬 브라우저에 병합한 후, 서버로 업로드",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "모든 북마크를 삭제합니다. 사전에 백업하세요.",
+        "description": ""
+    }
+}
